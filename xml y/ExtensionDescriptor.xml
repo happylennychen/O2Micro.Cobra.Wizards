@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root usage="ExtensionDescriptor" chip="Wizards" chiptype="14" bustype ="I2C" libname ="O2Micro.Cobra.Wizards" AppVersion="2.00.03" OCEVersion="1.00.01.00" ProjectCode="OCWIZRDY">
+  <Part Name="DBConfig">
+    <ChipName>Wizards</ChipName>
+    <ChipVersion>A0</ChipVersion>
+    <UserType>Y</UserType>
+    <Date>20200518</Date>
+    <HasCom>true</HasCom>
+    <HasAMT>true</HasAMT>
+  </Part>
+  <Part Name = "MainBtnList">
+    <Button Label = "Expert"       Name = "Exper"         PanelName ="O2Micro.Cobra.ExperPanel"/>
+    <Button Label = "Scan"      DBModuleName="Scan"      Name = "ScanV2"         PanelName ="O2Micro.Cobra.ScanPanel">
+      <ScanRate>
+        <Item>128mS</Item>
+        <Item>256mS</Item>
+        <Item>512mS</Item>
+        <Item>1S</Item>
+        <Item>2S</Item>
+        <Item>5S</Item>
+      </ScanRate>
+    </Button>
+    <Button Label = "Trim"   DBModuleName="Trim"        Name = "Trim"         PanelName ="O2Micro.Cobra.TrimPanel">
+      <Layout Name="layout">
+        <Button Name ="SlopeTrimBtn" IsEnable ="True" SubTask ="0x0b"/>
+        <Button Name ="OffsetTrimBtn" IsEnable ="True" SubTask ="0x0c"/>
+      </Layout>
+    </Button>
+  </Part>
+</Root>
