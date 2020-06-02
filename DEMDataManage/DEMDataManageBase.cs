@@ -69,14 +69,23 @@ namespace O2Micro.Cobra.Wizards
         /// <param name="relatedparameters"></param>
         public virtual void Hex2Physical(ref Parameter p)
         {
-            UInt16 wdata = 0;
+            ushort wdata = 0;
             double ddata = 0;
-            short sdata = 0;
             UInt32 ret = LibErrorCode.IDS_ERR_SUCCESSFUL;
 
             if (p == null) return;
             switch ((ElementDefine.SUBTYPE)p.subtype)
             {
+                case ElementDefine.SUBTYPE.ADC:
+                    ret = ReadFromRegImg(p, ref wdata);
+                    if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                    {
+                        p.phydata = ElementDefine.PARAM_PHYSICAL_ERROR;
+                        break;
+                    }
+                    ddata = wdata + p.offset;
+                    p.phydata = (double)((double)ddata * p.phyref / p.regref);
+                    break;
                 default:
                     ret = ReadFromRegImg(p, ref wdata);
                     if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)

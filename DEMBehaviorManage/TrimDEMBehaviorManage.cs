@@ -76,24 +76,82 @@ namespace O2Micro.Cobra.Wizards
             return ret;
         }
 
-        private void WriteOffsetCode(ushort code)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Preparation()
-        {
-            throw new NotImplementedException();
-        }
-
-        private uint ReadAvrage(ref TASKMessage msg)
-        {
-            throw new NotImplementedException();
-        }
-
         private void WriteSlopeCode(ushort code)
         {
-            throw new NotImplementedException();
+            WriteWord(0x28, (ushort)((code << 12) | (code << 4)));
+            WriteWord(0x29, (ushort)(code << 4));
+        }
+
+        private void WriteOffsetCode(ushort code)
+        {
+            ushort buf = 0;
+            ReadWord(0x28, ref buf);
+            WriteWord(0x28, (ushort)(buf | (code << 8) | code));
+            ReadWord(0x29, ref buf);
+            WriteWord(0x29, (ushort)(buf | code));
+        }
+
+        private UInt32 Preparation()
+        {
+            UInt32 ret = LibErrorCode.IDS_ERR_SUCCESSFUL;
+            //ret = WriteWord(0x20, 0x54);
+            //if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+            //    return ret;
+            //ret = WriteWord(0x20, 0x53);
+            //if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+            //    return ret;
+            //ret = WriteWord(0x20, 0x54);
+            //if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL)
+            //    return ret;
+            return ret;
+        }
+        private uint ReadAvrage(ref TASKMessage msg)
+        {
+            uint errorcode = 0;
+            List<double[]> llt = new List<double[]>();
+            List<double> avr = new List<double>();
+            foreach (Parameter param in msg.task_parameterlist.parameterlist)
+            {
+                llt.Add(new double[5]);
+                avr.Add(0);
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                errorcode = Read(ref msg);
+                if (errorcode != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                {
+                    return errorcode;
+                }
+                errorcode = ConvertHexToPhysical(ref msg);
+                if (errorcode != LibErrorCode.IDS_ERR_SUCCESSFUL)
+                {
+                    return errorcode;
+                }
+                for (int j = 0; j < msg.task_parameterlist.parameterlist.Count; j++)
+                {
+                    llt[j][i] = msg.task_parameterlist.parameterlist[j].phydata;
+                    avr[j] += llt[j][i];
+                }
+                Thread.Sleep(100);
+            }
+
+            for (int j = 0; j < msg.task_parameterlist.parameterlist.Count; j++)
+            {
+                //llt[j][i] = msg.task_parameterlist.parameterlist[j].phydata;
+                avr[j] /= 5;
+                int minIndex = 0;
+                double err = 999;
+                for (int i = 0; i < 5; i++)
+                {
+                    if (err > Math.Abs(llt[j][i] - avr[j]))
+                    {
+                        err = Math.Abs(llt[j][i] - avr[j]);
+                        minIndex = i;
+                    }
+                }
+                msg.task_parameterlist.parameterlist[j].phydata = llt[j][minIndex];
+            }
+            return errorcode;
         }
         #endregion
     }

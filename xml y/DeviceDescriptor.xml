@@ -810,6 +810,18 @@
           <Group>Wizards</Group>
           <Description>sys_mode</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>sys_mode</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>sys_mode</Description>
+          <LogName>sys_mode</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030604">
@@ -840,6 +852,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Adc_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Adc_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Adc_state</Description>
+          <LogName>Adc_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -872,6 +896,18 @@
           <Group>Wizards</Group>
           <Description>sleep_mode</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>sleep_mode</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>sleep_mode</Description>
+          <LogName>sleep_mode</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003060F">
@@ -902,6 +938,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>ship_mode</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>ship_mode</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ship_mode</Description>
+          <LogName>ship_mode</LogName>
         </SFL>
       </Private>
     </Element>
@@ -934,6 +982,18 @@
           <Group>Wizards</Group>
           <Description>cp2_fail_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>cp2_fail_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp2_fail_mask</Description>
+          <LogName>cp2_fail_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030701">
@@ -964,6 +1024,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>cp1_fail_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>cp1_fail_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp1_fail_mask</Description>
+          <LogName>cp1_fail_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -996,6 +1068,18 @@
           <Group>Wizards</Group>
           <Description>ot_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>ot_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ot_mask</Description>
+          <LogName>ot_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030703">
@@ -1026,6 +1110,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>ov_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>ov_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ov_mask</Description>
+          <LogName>ov_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1058,6 +1154,18 @@
           <Group>Wizards</Group>
           <Description>uv_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>uv_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>uv_mask</Description>
+          <LogName>uv_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030705">
@@ -1088,6 +1196,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ocp1_qp_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp1_qp_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp1_qp_mask</Description>
+          <LogName>Ocp1_qp_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1120,6 +1240,18 @@
           <Group>Wizards</Group>
           <Description>Ocp2_qp_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qp_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qp_mask</Description>
+          <LogName>Ocp2_qp_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030707">
@@ -1150,6 +1282,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ocp1_qn_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp1_qn_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp1_qn_mask</Description>
+          <LogName>Ocp1_qn_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1182,6 +1326,18 @@
           <Group>Wizards</Group>
           <Description>Ocp2_qn_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qn_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qn_mask</Description>
+          <LogName>Ocp2_qn_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030709">
@@ -1212,6 +1368,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Trig_end_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Trig_end_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Trig_end_mask</Description>
+          <LogName>Trig_end_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1244,6 +1412,18 @@
           <Group>Wizards</Group>
           <Description>Preocp_qp_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qp_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qp_mask</Description>
+          <LogName>Preocp_qp_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003070B">
@@ -1274,6 +1454,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Preocp_qn_mask</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qn_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qn_mask</Description>
+          <LogName>Preocp_qn_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1306,6 +1498,18 @@
           <Group>Wizards</Group>
           <Description>Pre_timeout_mask</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_timeout_mask</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_timeout_mask</Description>
+          <LogName>Pre_timeout_mask</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030800">
@@ -1336,6 +1540,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>cp2_fail_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>cp2_fail_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp2_fail_flag</Description>
+          <LogName>cp2_fail_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1368,6 +1584,18 @@
           <Group>Wizards</Group>
           <Description>cp1_fail_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>cp1_fail_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp1_fail_flag</Description>
+          <LogName>cp1_fail_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030802">
@@ -1398,6 +1626,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>ot_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>ot_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ot_flag</Description>
+          <LogName>ot_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1430,6 +1670,18 @@
           <Group>Wizards</Group>
           <Description>ov_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>ov_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ov_flag</Description>
+          <LogName>ov_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030804">
@@ -1460,6 +1712,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>uv_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>uv_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>uv_flag</Description>
+          <LogName>uv_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1492,6 +1756,18 @@
           <Group>Wizards</Group>
           <Description>Ocp1_qp_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp1_qp_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp1_qp_flag</Description>
+          <LogName>Ocp1_qp_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030806">
@@ -1522,6 +1798,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ocp2_qp_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qp_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qp_flag</Description>
+          <LogName>Ocp2_qp_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1554,6 +1842,18 @@
           <Group>Wizards</Group>
           <Description>Ocp1_qn_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp1_qn_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp1_qn_flag</Description>
+          <LogName>Ocp1_qn_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030808">
@@ -1584,6 +1884,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ocp2_qn_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qn_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qn_flag</Description>
+          <LogName>Ocp2_qn_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1616,6 +1928,18 @@
           <Group>Wizards</Group>
           <Description>Trig_end_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Trig_end_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Trig_end_flag</Description>
+          <LogName>Trig_end_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003080A">
@@ -1646,6 +1970,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Preocp_qp_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qp_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qp_flag</Description>
+          <LogName>Preocp_qp_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1678,6 +2014,18 @@
           <Group>Wizards</Group>
           <Description>Preocp_qn_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qn_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qn_flag</Description>
+          <LogName>Preocp_qn_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003080C">
@@ -1707,7 +2055,19 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>Pre_timeout_state</Description>
+          <Description>Pre_timeout_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_timeout_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_timeout_flag</Description>
+          <LogName>Pre_timeout_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1740,6 +2100,18 @@
           <Group>Wizards</Group>
           <Description>Ohtp_flag</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ohtp_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ohtp_flag</Description>
+          <LogName>Ohtp_flag</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003080F">
@@ -1770,6 +2142,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Porn_flag</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Porn_flag</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Porn_flag</Description>
+          <LogName>Porn_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1802,6 +2186,18 @@
           <Group>Wizards</Group>
           <Description>cp2_fail_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>cp2_fail_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp2_fail_state</Description>
+          <LogName>cp2_fail_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030901">
@@ -1832,6 +2228,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>cp1_fail_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>cp1_fail_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>cp1_fail_state</Description>
+          <LogName>cp1_fail_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1864,6 +2272,18 @@
           <Group>Wizards</Group>
           <Description>ot_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>ot_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ot_state</Description>
+          <LogName>ot_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030903">
@@ -1895,6 +2315,18 @@
           <Group>Wizards</Group>
           <Description>ov_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>ov_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>ov_state</Description>
+          <LogName>ov_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030904">
@@ -1925,6 +2357,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>uv_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>uv_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>uv_state</Description>
+          <LogName>uv_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1988,6 +2432,18 @@
           <Group>Wizards</Group>
           <Description>Ocp2_qp_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qp_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qp_state</Description>
+          <LogName>Ocp2_qp_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030907">
@@ -2018,6 +2474,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ocp1_qn_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp1_qn_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp1_qn_state</Description>
+          <LogName>Ocp1_qn_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2050,6 +2518,18 @@
           <Group>Wizards</Group>
           <Description>Ocp2_qn_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Ocp2_qn_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ocp2_qn_state</Description>
+          <LogName>Ocp2_qn_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003090A">
@@ -2080,6 +2560,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Preocp_qp_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qp_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qp_state</Description>
+          <LogName>Preocp_qp_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2112,6 +2604,18 @@
           <Group>Wizards</Group>
           <Description>Preocp_qn_state</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Preocp_qn_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Preocp_qn_state</Description>
+          <LogName>Preocp_qn_state</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x0003090C">
@@ -2142,6 +2646,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Pre_timeout_state</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_timeout_state</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_timeout_state</Description>
+          <LogName>Pre_timeout_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2174,6 +2690,18 @@
           <Group>Wizards</Group>
           <Description>OC1_qnset</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>OC1_qnset</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>OC1_qnset</Description>
+          <LogName>OC1_qnset</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030B02">
@@ -2204,6 +2732,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>OC2_qnset</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>OC2_qnset</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>OC2_qnset</Description>
+          <LogName>OC2_qnset</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2236,6 +2776,18 @@
           <Group>Wizards</Group>
           <Description>OC1_qpset</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>OC1_qnset</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>OC1_qpset</Description>
+          <LogName>OC1_qpset</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030B06">
@@ -2266,6 +2818,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>OC2_qpset</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>OC2_qpset</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>OC2_qpset</Description>
+          <LogName>OC2_qpset</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2298,6 +2862,18 @@
           <Group>Wizards</Group>
           <Description>Pre_cur_wd_set</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_cur_wd_set</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_cur_wd_set</Description>
+          <LogName>Pre_cur_wd_set</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030B0D">
@@ -2328,6 +2904,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Ratio_sel</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Ratio_sel</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Ratio_sel</Description>
+          <LogName>Ratio_sel</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2360,6 +2948,18 @@
           <Group>Wizards</Group>
           <Description>pwrsel</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>pwrsel</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>pwrsel</Description>
+          <LogName>pwrsel</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030B0F">
@@ -2390,6 +2990,18 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Pre_cur_set_opt</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_cur_set_opt</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_cur_set_opt</Description>
+          <LogName>Pre_cur_set_opt</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2422,6 +3034,18 @@
           <Group>Wizards</Group>
           <Description>Pre_cur_set_sw</Description>
         </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_cur_set_sw</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_cur_set_sw</Description>
+          <LogName>Pre_cur_set_sw</LogName>
+        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00030C05">
@@ -2452,6 +3076,18 @@
           <Write>false</Write>
           <Group>Wizards</Group>
           <Description>Pre_cur_set</Description>
+        </SFL>
+        <SFL Name="Scan">
+          <NickName>Pre_cur_set</NickName>
+          <Group>6</Group>
+          <SubGroup>0</SubGroup>
+          <Order>5</Order>
+          <DefValue>0</DefValue>
+          <MinValue>-81920</MinValue>
+          <MaxValue>81920</MaxValue>
+          <Usability>false</Usability>
+          <Description>Pre_cur_set</Description>
+          <LogName>Pre_cur_set</LogName>
         </SFL>
       </Private>
     </Element>
@@ -3019,14 +3655,14 @@
       <RegRef>1</RegRef>
       <SubType>0</SubType>
       <HexMin>0</HexMin>
-      <HexMax>1FF</HexMax>
+      <HexMax>7f</HexMax>
       <PhyMin>0</PhyMin>
-      <PhyMax>511</PhyMax>
+      <PhyMax>127</PhyMax>
       <LocationList>
         <Location Position="Low">
           <Address>14</Address>
           <StartBit>0</StartBit>
-          <BitsNumber>9</BitsNumber>
+          <BitsNumber>7</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3035,12 +3671,43 @@
           <BitTotal>10</BitTotal>
           <Index>14</Index>
           <BitStart>0</BitStart>
-          <Length>9</Length>
+          <Length>7</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>adc_sel_en</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00031407">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>3</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>3</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>14</Address>
+          <StartBit>7</StartBit>
+          <BitsNumber>2</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>14</Index>
+          <BitStart>7</BitStart>
+          <Length>2</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>adc_scan_cycle</Description>
         </SFL>
       </Private>
     </Element>
@@ -3109,8 +3776,9 @@
     <Element Guid="0x00031600">
       <PhysicalData>0</PhysicalData>
       <PhyRef>2.5</PhyRef>
+      <Offset>-2048</Offset>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3155,9 +3823,10 @@
     </Element>
     <Element Guid="0x00031700">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>1.25</PhyRef>
+      <PhyRef>2.5</PhyRef>
+      <Offset>-2048</Offset>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3204,7 +3873,8 @@
       <PhysicalData>0</PhysicalData>
       <PhyRef>2.5</PhyRef>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <Offset>-2048</Offset>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3245,9 +3915,10 @@
     </Element>
     <Element Guid="0x00031900">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>1.25</PhyRef>
+      <PhyRef>2.5</PhyRef>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <Offset>-2048</Offset>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3288,9 +3959,10 @@
     </Element>
     <Element Guid="0x00031A00">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>1</PhyRef>
+      <PhyRef>1.86</PhyRef>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <Offset>-2048</Offset>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3331,9 +4003,10 @@
     </Element>
     <Element Guid="0x00031B00">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>2.5</PhyRef>
+      <PhyRef>7.625</PhyRef>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <Offset>-2048</Offset>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>
@@ -3374,9 +4047,10 @@
     </Element>
     <Element Guid="0x00031C00">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>0.25</PhyRef>
+      <PhyRef>0.5</PhyRef>
       <RegRef>1</RegRef>
-      <SubType>0</SubType>
+      <Offset>-2048</Offset>
+      <SubType>1</SubType>
       <HexMin>0</HexMin>
       <HexMax>FFF</HexMax>
       <PhyMin>0</PhyMin>

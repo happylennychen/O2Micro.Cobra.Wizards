@@ -172,6 +172,10 @@ namespace O2Micro.Cobra.Wizards
                 case ElementDefine.COMMAND.EXPERT_ENTER_TRIM_MODE:
                     ret = m_expert_dem_bm.Command(ref bgworker);
                     break;
+                case ElementDefine.COMMAND.TRIM_SLOPE_TRIMMING:
+                case ElementDefine.COMMAND.TRIM_OFFSET_TRIMMING:
+                    ret = m_trim_dem_bm.Command(ref bgworker);
+                    break;
             }
             return ret;
         }

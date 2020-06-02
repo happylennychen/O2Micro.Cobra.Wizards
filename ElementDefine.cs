@@ -48,6 +48,7 @@ namespace O2Micro.Cobra.Wizards
         internal enum SUBTYPE : ushort
         {
             DEFAULT = 0,
+            ADC = 1
         }
 
         #region Local ErrorCode
