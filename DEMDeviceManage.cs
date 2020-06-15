@@ -96,6 +96,8 @@ namespace O2Micro.Cobra.Wizards
             m_dem_bm_base.dem_dm = new DEMDataManageBase(m_dem_bm_base);
             m_expert_dem_bm.parent = this;
             m_expert_dem_bm.dem_dm = new DEMDataManageBase(m_dem_bm_base);
+            m_trim_dem_bm.parent = this;
+            m_trim_dem_bm.dem_dm = new DEMDataManageBase(m_dem_bm_base);
 
             LibInfor.AssemblyRegister(Assembly.GetExecutingAssembly(), ASSEMBLY_TYPE.OCE); 
             LibErrorCode.UpdateDynamicalLibError(ref m_dynamicErrorLib_dic);

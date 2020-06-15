@@ -37,7 +37,7 @@ namespace O2Micro.Cobra.Wizards
                     for (ushort code = 0; code < 16; code++)
                     {
                         WriteSlopeCode(code);
-
+                        Thread.Sleep(500);
                         ret = ReadAvrage(ref msg);
                         if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL) return ret;
 
@@ -61,6 +61,7 @@ namespace O2Micro.Cobra.Wizards
                     for (ushort code = 0; code < 16; code++)
                     {
                         WriteOffsetCode(code);
+                        Thread.Sleep(500);
 
                         ret = ReadAvrage(ref msg);
                         if (ret != LibErrorCode.IDS_ERR_SUCCESSFUL) return ret;
