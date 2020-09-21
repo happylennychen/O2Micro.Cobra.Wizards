@@ -502,37 +502,6 @@
         </SFL>
       </Private>
     </Element>
-    <Element Guid="0x00030406">
-      <PhysicalData>0</PhysicalData>
-      <PhyRef>1</PhyRef>
-      <RegRef>1</RegRef>
-      <SubType>0</SubType>
-      <HexMin>0</HexMin>
-      <HexMax>1</HexMax>
-      <PhyMin>0</PhyMin>
-      <PhyMax>1</PhyMax>
-      <LocationList>
-        <Location Position="Low">
-          <Address>4</Address>
-          <StartBit>6</StartBit>
-          <BitsNumber>1</BitsNumber>
-        </Location>
-      </LocationList>
-      <Private>
-        <SFL Name="Expert">
-          <CustomerMode>true</CustomerMode>
-          <BitTotal>10</BitTotal>
-          <Index>4</Index>
-          <BitStart>6</BitStart>
-          <Length>1</Length>
-          <Value>0</Value>
-          <Read>true</Read>
-          <Write>true</Write>
-          <Group>Wizards</Group>
-          <Description>Cp_enable_neg_set</Description>
-        </SFL>
-      </Private>
-    </Element>
     <Element Guid="0x00030500">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
@@ -824,49 +793,6 @@
         </SFL>
       </Private>
     </Element>
-    <Element Guid="0x00030604">
-      <PhysicalData>0</PhysicalData>
-      <PhyRef>1</PhyRef>
-      <RegRef>1</RegRef>
-      <SubType>0</SubType>
-      <HexMin>0</HexMin>
-      <HexMax>F</HexMax>
-      <PhyMin>0</PhyMin>
-      <PhyMax>15</PhyMax>
-      <LocationList>
-        <Location Position="Low">
-          <Address>6</Address>
-          <StartBit>4</StartBit>
-          <BitsNumber>4</BitsNumber>
-        </Location>
-      </LocationList>
-      <Private>
-        <SFL Name="Expert">
-          <CustomerMode>true</CustomerMode>
-          <BitTotal>10</BitTotal>
-          <Index>6</Index>
-          <BitStart>4</BitStart>
-          <Length>4</Length>
-          <Value>0</Value>
-          <Read>true</Read>
-          <Write>true</Write>
-          <Group>Wizards</Group>
-          <Description>Adc_state</Description>
-        </SFL>
-        <SFL Name="Scan">
-          <NickName>Adc_state</NickName>
-          <Group>6</Group>
-          <SubGroup>0</SubGroup>
-          <Order>5</Order>
-          <DefValue>0</DefValue>
-          <MinValue>-81920</MinValue>
-          <MaxValue>81920</MaxValue>
-          <Usability>false</Usability>
-          <Description>Adc_state</Description>
-          <LogName>Adc_state</LogName>
-        </SFL>
-      </Private>
-    </Element>
     <Element Guid="0x0003060E">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
@@ -980,10 +906,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp2_fail_mask</Description>
+          <Description>cp1_fail_mask</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp2_fail_mask</NickName>
+          <NickName>cp1_fail_mask</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -991,8 +917,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp2_fail_mask</Description>
-          <LogName>cp2_fail_mask</LogName>
+          <Description>cp1_fail_mask</Description>
+          <LogName>cp1_fail_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1023,10 +949,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp1_fail_mask</Description>
+          <Description>cp2_fail_mask</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp1_fail_mask</NickName>
+          <NickName>cp2_fail_mask</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -1034,8 +960,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp1_fail_mask</Description>
-          <LogName>cp1_fail_mask</LogName>
+          <Description>cp2_fail_mask</Description>
+          <LogName>cp2_fail_mask</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1539,10 +1465,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp2_fail_flag</Description>
+          <Description>cp1_fail_flag</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp2_fail_flag</NickName>
+          <NickName>cp1_fail_flag</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -1550,8 +1476,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp2_fail_flag</Description>
-          <LogName>cp2_fail_flag</LogName>
+          <Description>cp1_fail_flag</Description>
+          <LogName>cp1_fail_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -1582,10 +1508,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp1_fail_flag</Description>
+          <Description>cp2_fail_flag</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp1_fail_flag</NickName>
+          <NickName>cp2_fail_flag</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -1593,8 +1519,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp1_fail_flag</Description>
-          <LogName>cp1_fail_flag</LogName>
+          <Description>cp2_fail_flag</Description>
+          <LogName>cp2_fail_flag</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2184,10 +2110,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp2_fail_state</Description>
+          <Description>cp1_fail_state</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp2_fail_state</NickName>
+          <NickName>cp1_fail_state</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -2195,8 +2121,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp2_fail_state</Description>
-          <LogName>cp2_fail_state</LogName>
+          <Description>cp1_fail_state</Description>
+          <LogName>cp1_fail_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2227,10 +2153,10 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>cp1_fail_state</Description>
+          <Description>cp2_fail_state</Description>
         </SFL>
         <SFL Name="Scan">
-          <NickName>cp1_fail_state</NickName>
+          <NickName>cp2_fail_state</NickName>
           <Group>6</Group>
           <SubGroup>0</SubGroup>
           <Order>5</Order>
@@ -2238,8 +2164,8 @@
           <MinValue>-81920</MinValue>
           <MaxValue>81920</MaxValue>
           <Usability>false</Usability>
-          <Description>cp1_fail_state</Description>
-          <LogName>cp1_fail_state</LogName>
+          <Description>cp2_fail_state</Description>
+          <LogName>cp2_fail_state</LogName>
         </SFL>
       </Private>
     </Element>
@@ -2661,6 +2587,37 @@
         </SFL>
       </Private>
     </Element>
+    <Element Guid="0x0003090E">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>9</Address>
+          <StartBit>14</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>9</Index>
+          <BitStart>E</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>ohtp_state</Description>
+        </SFL>
+      </Private>
+    </Element>
     <Element Guid="0x00030B00">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
@@ -2876,20 +2833,20 @@
         </SFL>
       </Private>
     </Element>
-    <Element Guid="0x00030B0D">
+    <Element Guid="0x00030B0A">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
       <RegRef>1</RegRef>
       <SubType>0</SubType>
       <HexMin>0</HexMin>
-      <HexMax>1</HexMax>
+      <HexMax>3</HexMax>
       <PhyMin>0</PhyMin>
-      <PhyMax>1</PhyMax>
+      <PhyMax>3</PhyMax>
       <LocationList>
         <Location Position="Low">
           <Address>B</Address>
-          <StartBit>13</StartBit>
-          <BitsNumber>1</BitsNumber>
+          <StartBit>10</StartBit>
+          <BitsNumber>2</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -2897,42 +2854,30 @@
           <CustomerMode>true</CustomerMode>
           <BitTotal>10</BitTotal>
           <Index>B</Index>
-          <BitStart>D</BitStart>
-          <Length>1</Length>
+          <BitStart>A</BitStart>
+          <Length>2</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>Ratio_sel</Description>
-        </SFL>
-        <SFL Name="Scan">
-          <NickName>Ratio_sel</NickName>
-          <Group>6</Group>
-          <SubGroup>0</SubGroup>
-          <Order>5</Order>
-          <DefValue>0</DefValue>
-          <MinValue>-81920</MinValue>
-          <MaxValue>81920</MaxValue>
-          <Usability>false</Usability>
-          <Description>Ratio_sel</Description>
-          <LogName>Ratio_sel</LogName>
+          <Description>qn_pwr_sel</Description>
         </SFL>
       </Private>
     </Element>
-    <Element Guid="0x00030B0E">
+    <Element Guid="0x00030B0C">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
       <RegRef>1</RegRef>
       <SubType>0</SubType>
       <HexMin>0</HexMin>
-      <HexMax>1</HexMax>
+      <HexMax>3</HexMax>
       <PhyMin>0</PhyMin>
-      <PhyMax>1</PhyMax>
+      <PhyMax>3</PhyMax>
       <LocationList>
         <Location Position="Low">
           <Address>B</Address>
-          <StartBit>14</StartBit>
-          <BitsNumber>1</BitsNumber>
+          <StartBit>12</StartBit>
+          <BitsNumber>2</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -2940,25 +2885,13 @@
           <CustomerMode>true</CustomerMode>
           <BitTotal>10</BitTotal>
           <Index>B</Index>
-          <BitStart>E</BitStart>
-          <Length>1</Length>
+          <BitStart>C</BitStart>
+          <Length>2</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>pwrsel</Description>
-        </SFL>
-        <SFL Name="Scan">
-          <NickName>pwrsel</NickName>
-          <Group>6</Group>
-          <SubGroup>0</SubGroup>
-          <Order>5</Order>
-          <DefValue>0</DefValue>
-          <MinValue>-81920</MinValue>
-          <MaxValue>81920</MaxValue>
-          <Usability>false</Usability>
-          <Description>pwrsel</Description>
-          <LogName>pwrsel</LogName>
+          <Description>qp_pwr_sel</Description>
         </SFL>
       </Private>
     </Element>
@@ -3088,6 +3021,68 @@
           <Usability>false</Usability>
           <Description>Pre_cur_set</Description>
           <LogName>Pre_cur_set</LogName>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00030D00">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>D</Address>
+          <StartBit>0</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>D</Index>
+          <BitStart>0</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>otp_auto_dis</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00030D01">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>D</Address>
+          <StartBit>1</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>D</Index>
+          <BitStart>1</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>hiccup_dis</Description>
         </SFL>
       </Private>
     </Element>
@@ -3463,6 +3458,37 @@
         </SFL>
       </Private>
     </Element>
+    <Element Guid="0x00030F07">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>3</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>3</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>F</Address>
+          <StartBit>7</StartBit>
+          <BitsNumber>2</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>F</Index>
+          <BitStart>7</BitStart>
+          <Length>2</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>ocp_dly_set</Description>
+        </SFL>
+      </Private>
+    </Element>
     <Element Guid="0x00031000">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
@@ -3538,7 +3564,7 @@
         <Location Position="Low">
           <Address>11</Address>
           <StartBit>0</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>4</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3547,7 +3573,7 @@
           <BitTotal>10</BitTotal>
           <Index>11</Index>
           <BitStart>0</BitStart>
-          <Length>6</Length>
+          <Length>4</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
@@ -3569,7 +3595,7 @@
         <Location Position="Low">
           <Address>11</Address>
           <StartBit>8</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>4</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3578,7 +3604,7 @@
           <BitTotal>10</BitTotal>
           <Index>11</Index>
           <BitStart>8</BitStart>
-          <Length>6</Length>
+          <Length>4</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
@@ -3600,7 +3626,7 @@
         <Location Position="Low">
           <Address>12</Address>
           <StartBit>0</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>1</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3609,7 +3635,7 @@
           <BitTotal>10</BitTotal>
           <Index>12</Index>
           <BitStart>0</BitStart>
-          <Length>6</Length>
+          <Length>1</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
@@ -3631,7 +3657,7 @@
         <Location Position="Low">
           <Address>12</Address>
           <StartBit>8</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>1</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3640,12 +3666,43 @@
           <BitTotal>10</BitTotal>
           <Index>12</Index>
           <BitStart>8</BitStart>
-          <Length>6</Length>
+          <Length>1</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>OT hysteresis</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00031300">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>3F</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>63</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>13</Address>
+          <StartBit>0</StartBit>
+          <BitsNumber>5</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>13</Index>
+          <BitStart>0</BitStart>
+          <Length>5</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>Max_curr_set</Description>
         </SFL>
       </Private>
     </Element>
@@ -4073,23 +4130,38 @@
           <Read>true</Read>
           <Write>true</Write>
           <Group>Wizards</Group>
-          <Description>Ot_val</Description>
+          <Description>Temp_val</Description>
         </SFL>
-        <SFL Name="Scan">
-          <NickName>Ot_val</NickName>
-          <Group>6</Group>
-          <SubGroup>0</SubGroup>
-          <Order>6</Order>
-          <DefValue>0</DefValue>
-          <MinValue>-81920</MinValue>
-          <MaxValue>81920</MaxValue>
-          <Usability>false</Usability>
-          <Description>Ot_val</Description>
-          <LogName>Ot_val</LogName>
-        </SFL>
-        <SFL Name="Trim">
-          <Order>2</Order>
-          <Name>Ot</Name>
+      </Private>
+    </Element>
+    <Element Guid="0x00031D00">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>1D</Address>
+          <StartBit>0</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>1D</Index>
+          <BitStart>0</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>I2C_LS_EN</Description>
         </SFL>
       </Private>
     </Element>
@@ -4338,6 +4410,99 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>ocp_qptrim[3:0]</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00032208">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>22</Address>
+          <StartBit>8</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>22</Index>
+          <BitStart>8</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>vbg_trim3</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00032209">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>22</Address>
+          <StartBit>9</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>22</Index>
+          <BitStart>9</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>rsv_trim</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x0003220F">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>22</Address>
+          <StartBit>15</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>22</Index>
+          <BitStart>F</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>auto_parallel_dis</Description>
         </SFL>
       </Private>
     </Element>
@@ -4617,6 +4782,37 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>Otp_state</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00032508">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>1</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>1</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>25</Address>
+          <StartBit>8</StartBit>
+          <BitsNumber>1</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>25</Index>
+          <BitStart>8</BitStart>
+          <Length>1</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>otp_frozen_ctrl</Description>
         </SFL>
       </Private>
     </Element>
@@ -5085,68 +5281,6 @@
         </SFL>
       </Private>
     </Element>
-    <Element Guid="0x00032700">
-      <PhysicalData>0</PhysicalData>
-      <PhyRef>1</PhyRef>
-      <RegRef>1</RegRef>
-      <SubType>0</SubType>
-      <HexMin>0</HexMin>
-      <HexMax>F</HexMax>
-      <PhyMin>0</PhyMin>
-      <PhyMax>15</PhyMax>
-      <LocationList>
-        <Location Position="Low">
-          <Address>27</Address>
-          <StartBit>0</StartBit>
-          <BitsNumber>4</BitsNumber>
-        </Location>
-      </LocationList>
-      <Private>
-        <SFL Name="Expert">
-          <CustomerMode>true</CustomerMode>
-          <BitTotal>10</BitTotal>
-          <Index>27</Index>
-          <BitStart>0</BitStart>
-          <Length>4</Length>
-          <Value>0</Value>
-          <Read>true</Read>
-          <Write>true</Write>
-          <Group>Wizards</Group>
-          <Description>test_ctrl</Description>
-        </SFL>
-      </Private>
-    </Element>
-    <Element Guid="0x00032704">
-      <PhysicalData>0</PhysicalData>
-      <PhyRef>1</PhyRef>
-      <RegRef>1</RegRef>
-      <SubType>0</SubType>
-      <HexMin>0</HexMin>
-      <HexMax>F</HexMax>
-      <PhyMin>0</PhyMin>
-      <PhyMax>15</PhyMax>
-      <LocationList>
-        <Location Position="Low">
-          <Address>27</Address>
-          <StartBit>4</StartBit>
-          <BitsNumber>4</BitsNumber>
-        </Location>
-      </LocationList>
-      <Private>
-        <SFL Name="Expert">
-          <CustomerMode>true</CustomerMode>
-          <BitTotal>10</BitTotal>
-          <Index>27</Index>
-          <BitStart>4</BitStart>
-          <Length>4</Length>
-          <Value>0</Value>
-          <Read>true</Read>
-          <Write>true</Write>
-          <Group>Wizards</Group>
-          <Description>test_sim</Description>
-        </SFL>
-      </Private>
-    </Element>
     <Element Guid="0x00032708">
       <PhysicalData>0</PhysicalData>
       <PhyRef>1</PhyRef>
@@ -5485,6 +5619,37 @@
           <Write>true</Write>
           <Group>Wizards</Group>
           <Description>temp_slope</Description>
+        </SFL>
+      </Private>
+    </Element>
+    <Element Guid="0x00032908">
+      <PhysicalData>0</PhysicalData>
+      <PhyRef>1</PhyRef>
+      <RegRef>1</RegRef>
+      <SubType>0</SubType>
+      <HexMin>0</HexMin>
+      <HexMax>F</HexMax>
+      <PhyMin>0</PhyMin>
+      <PhyMax>15</PhyMax>
+      <LocationList>
+        <Location Position="Low">
+          <Address>29</Address>
+          <StartBit>8</StartBit>
+          <BitsNumber>2</BitsNumber>
+        </Location>
+      </LocationList>
+      <Private>
+        <SFL Name="Expert">
+          <CustomerMode>true</CustomerMode>
+          <BitTotal>10</BitTotal>
+          <Index>29</Index>
+          <BitStart>8</BitStart>
+          <Length>2</Length>
+          <Value>0</Value>
+          <Read>true</Read>
+          <Write>true</Write>
+          <Group>Wizards</Group>
+          <Description>adc_slope3</Description>
         </SFL>
       </Private>
     </Element>

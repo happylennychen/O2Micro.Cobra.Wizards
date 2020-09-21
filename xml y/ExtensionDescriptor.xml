@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Root usage="ExtensionDescriptor" chip="Wizards" chiptype="14" bustype ="I2C" libname ="O2Micro.Cobra.Wizards" AppVersion="2.00.03" OCEVersion="1.00.01.00" ProjectCode="OCWIZRDY">
+<Root usage="ExtensionDescriptor" chip="Wizards" chiptype="14" bustype ="I2C" libname ="O2Micro.Cobra.Wizards" AppVersion="2.00.03" OCEVersion="1.00.02.00" ProjectCode="OCWIZRDY">
   <Part Name="DBConfig">
     <ChipName>Wizards</ChipName>
-    <ChipVersion>A0</ChipVersion>
+    <ChipVersion>B0</ChipVersion>
     <UserType>Y</UserType>
-    <Date>20200518</Date>
+    <Date>20200913</Date>
     <HasCom>true</HasCom>
     <HasAMT>true</HasAMT>
   </Part>
