@@ -50,7 +50,7 @@
         <SFL Name ="BusOptions">
           <Order>0</Order>
           <NickName>I2C Address:</NickName>
-          <Catalog>Wizards</Catalog>
+          <Catalog>SD77060</Catalog>
           <DefValue>20</DefValue>
           <EditType>1</EditType>
           <Format>1</Format>
@@ -71,7 +71,7 @@
         <SFL Name ="BusOptions">
           <Order>1</Order>
           <NickName>PEC enable</NickName>
-          <Catalog>Wizards</Catalog>
+          <Catalog>SD77060</Catalog>
           <DefValue>0</DefValue>
           <EditType>1</EditType>
           <Format>1</Format>
@@ -280,7 +280,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vendor ID</Description>
         </SFL>
       </Private>
@@ -311,7 +311,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Device ID</Description>
         </SFL>
       </Private>
@@ -342,7 +342,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>IC version</Description>
         </SFL>
       </Private>
@@ -373,7 +373,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Configuration ID</Description>
         </SFL>
       </Private>
@@ -404,7 +404,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qn_ctrl_sw</Description>
         </SFL>
       </Private>
@@ -435,7 +435,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qp_ctrl_sw</Description>
         </SFL>
       </Private>
@@ -466,7 +466,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Q0_drv_sw</Description>
         </SFL>
       </Private>
@@ -497,7 +497,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Q4_drv_sw</Description>
         </SFL>
       </Private>
@@ -528,7 +528,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qn_ctrl</Description>
         </SFL>
       </Private>
@@ -559,7 +559,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qp_ctrl</Description>
         </SFL>
       </Private>
@@ -590,7 +590,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Q0_drv</Description>
         </SFL>
       </Private>
@@ -621,7 +621,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Q4_drv</Description>
         </SFL>
       </Private>
@@ -652,7 +652,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Cp1_en</Description>
         </SFL>
       </Private>
@@ -683,7 +683,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Cp2_en</Description>
         </SFL>
       </Private>
@@ -714,7 +714,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Cp1_ok</Description>
         </SFL>
       </Private>
@@ -745,7 +745,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Cp2_ok</Description>
         </SFL>
       </Private>
@@ -776,7 +776,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>sys_mode</Description>
         </SFL>
         <SFL Name="Scan">
@@ -819,7 +819,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>sleep_mode</Description>
         </SFL>
         <SFL Name="Scan">
@@ -862,7 +862,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ship_mode</Description>
         </SFL>
         <SFL Name="Scan">
@@ -905,7 +905,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp1_fail_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -948,7 +948,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp2_fail_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -991,7 +991,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ot_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1034,7 +1034,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ov_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1077,7 +1077,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>uv_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1120,7 +1120,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qp_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1163,7 +1163,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qp_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1206,7 +1206,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qn_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1249,7 +1249,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qn_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1292,7 +1292,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Trig_end_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1335,7 +1335,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qp_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1378,7 +1378,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qn_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1421,7 +1421,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_timeout_mask</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1464,7 +1464,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp1_fail_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1507,7 +1507,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp2_fail_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1550,7 +1550,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ot_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1593,7 +1593,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ov_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1636,7 +1636,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>uv_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1679,7 +1679,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qp_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1722,7 +1722,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qp_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1765,7 +1765,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qn_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1808,7 +1808,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qn_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1851,7 +1851,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Trig_end_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1894,7 +1894,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qp_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1937,7 +1937,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qn_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -1980,7 +1980,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_timeout_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2023,7 +2023,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ohtp_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2066,7 +2066,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Porn_flag</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2109,7 +2109,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp1_fail_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2152,7 +2152,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>cp2_fail_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2195,7 +2195,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ot_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2238,7 +2238,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ov_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2281,7 +2281,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>uv_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2324,7 +2324,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qp_state</Description>
         </SFL>
       </Private>
@@ -2355,7 +2355,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qp_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2398,7 +2398,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp1_qn_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2441,7 +2441,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp2_qn_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2484,7 +2484,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qp_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2527,7 +2527,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qn_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2570,7 +2570,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_timeout_state</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2613,7 +2613,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ohtp_state</Description>
         </SFL>
       </Private>
@@ -2644,7 +2644,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC1_qnset</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2687,7 +2687,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC2_qnset</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2730,7 +2730,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC1_qpset</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2773,7 +2773,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC2_qpset</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2816,7 +2816,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_cur_wd_set</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2859,7 +2859,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>qn_pwr_sel</Description>
         </SFL>
       </Private>
@@ -2890,7 +2890,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>qp_pwr_sel</Description>
         </SFL>
       </Private>
@@ -2921,7 +2921,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_cur_set_opt</Description>
         </SFL>
         <SFL Name="Scan">
@@ -2964,7 +2964,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_cur_set_sw</Description>
         </SFL>
         <SFL Name="Scan">
@@ -3007,7 +3007,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>false</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_cur_set</Description>
         </SFL>
         <SFL Name="Scan">
@@ -3050,7 +3050,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_auto_dis</Description>
         </SFL>
       </Private>
@@ -3081,7 +3081,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>hiccup_dis</Description>
         </SFL>
       </Private>
@@ -3112,7 +3112,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC1_deglitch</Description>
         </SFL>
       </Private>
@@ -3143,7 +3143,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OC2_deglitch</Description>
         </SFL>
       </Private>
@@ -3174,7 +3174,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>CP1_fail _timer</Description>
         </SFL>
       </Private>
@@ -3205,7 +3205,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>CP2_fail _timer</Description>
         </SFL>
       </Private>
@@ -3236,7 +3236,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ov_deglitch</Description>
         </SFL>
       </Private>
@@ -3267,7 +3267,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Uv_deglitch</Description>
         </SFL>
       </Private>
@@ -3298,7 +3298,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ot_deglitch</Description>
         </SFL>
       </Private>
@@ -3329,7 +3329,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Sleep_wakup_timer</Description>
         </SFL>
       </Private>
@@ -3360,7 +3360,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qp_deglitch</Description>
         </SFL>
       </Private>
@@ -3391,7 +3391,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Preocp_qn_deglitch</Description>
         </SFL>
       </Private>
@@ -3422,7 +3422,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ohtp_deglitch</Description>
         </SFL>
       </Private>
@@ -3453,7 +3453,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Pre_timeout_set</Description>
         </SFL>
       </Private>
@@ -3484,7 +3484,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ocp_dly_set</Description>
         </SFL>
       </Private>
@@ -3502,7 +3502,7 @@
         <Location Position="Low">
           <Address>10</Address>
           <StartBit>0</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>5</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3511,11 +3511,11 @@
           <BitTotal>10</BitTotal>
           <Index>10</Index>
           <BitStart>0</BitStart>
-          <Length>6</Length>
+          <Length>5</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OV threshold</Description>
         </SFL>
       </Private>
@@ -3533,7 +3533,7 @@
         <Location Position="Low">
           <Address>10</Address>
           <StartBit>8</StartBit>
-          <BitsNumber>6</BitsNumber>
+          <BitsNumber>3</BitsNumber>
         </Location>
       </LocationList>
       <Private>
@@ -3542,11 +3542,11 @@
           <BitTotal>10</BitTotal>
           <Index>10</Index>
           <BitStart>8</BitStart>
-          <Length>6</Length>
+          <Length>3</Length>
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OV hysteresis</Description>
         </SFL>
       </Private>
@@ -3577,7 +3577,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>uV threshold</Description>
         </SFL>
       </Private>
@@ -3608,7 +3608,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>uV hysteresis</Description>
         </SFL>
       </Private>
@@ -3639,7 +3639,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OT threshold</Description>
         </SFL>
       </Private>
@@ -3670,7 +3670,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>OT hysteresis</Description>
         </SFL>
       </Private>
@@ -3701,7 +3701,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Max_curr_set</Description>
         </SFL>
       </Private>
@@ -3732,7 +3732,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>adc_sel_en</Description>
         </SFL>
       </Private>
@@ -3763,7 +3763,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>adc_scan_cycle</Description>
         </SFL>
       </Private>
@@ -3794,7 +3794,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>adc_stop</Description>
         </SFL>
       </Private>
@@ -3825,7 +3825,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>adc_trigger</Description>
         </SFL>
       </Private>
@@ -3857,7 +3857,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat2_sen_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -3905,7 +3905,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat1_sen_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -3953,7 +3953,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qp_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -3997,7 +3997,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Qn_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -4016,7 +4016,7 @@
     </Element>
     <Element Guid="0x00031A00">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>1.86</PhyRef>
+      <PhyRef>2</PhyRef>
       <RegRef>1</RegRef>
       <Offset>-2048</Offset>
       <SubType>1</SubType>
@@ -4041,7 +4041,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>V33_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -4060,7 +4060,7 @@
     </Element>
     <Element Guid="0x00031B00">
       <PhysicalData>0</PhysicalData>
-      <PhyRef>7.625</PhyRef>
+      <PhyRef>10</PhyRef>
       <RegRef>1</RegRef>
       <Offset>-2048</Offset>
       <SubType>1</SubType>
@@ -4085,7 +4085,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vcc_val</Description>
         </SFL>
         <SFL Name="Scan">
@@ -4129,7 +4129,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Temp_val</Description>
         </SFL>
       </Private>
@@ -4160,7 +4160,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>I2C_LS_EN</Description>
         </SFL>
       </Private>
@@ -4191,7 +4191,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Fet_ctrl_en</Description>
         </SFL>
       </Private>
@@ -4222,7 +4222,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>test_mode</Description>
         </SFL>
       </Private>
@@ -4253,7 +4253,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>osc_trim</Description>
         </SFL>
       </Private>
@@ -4284,7 +4284,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>vbg_trim</Description>
         </SFL>
       </Private>
@@ -4315,7 +4315,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>v1v_trim</Description>
         </SFL>
       </Private>
@@ -4346,7 +4346,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>v33_trim</Description>
         </SFL>
       </Private>
@@ -4377,7 +4377,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ocp_qntrim[3:0]</Description>
         </SFL>
       </Private>
@@ -4408,7 +4408,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>ocp_qptrim[3:0]</Description>
         </SFL>
       </Private>
@@ -4439,7 +4439,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>vbg_trim3</Description>
         </SFL>
       </Private>
@@ -4470,7 +4470,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>rsv_trim</Description>
         </SFL>
       </Private>
@@ -4501,7 +4501,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>auto_parallel_dis</Description>
         </SFL>
       </Private>
@@ -4532,7 +4532,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ireg_ref_trim0</Description>
         </SFL>
       </Private>
@@ -4563,7 +4563,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ireg_ref_trim1</Description>
         </SFL>
       </Private>
@@ -4594,7 +4594,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_prg</Description>
         </SFL>
       </Private>
@@ -4625,7 +4625,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_rd</Description>
         </SFL>
       </Private>
@@ -4656,7 +4656,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_busy</Description>
         </SFL>
       </Private>
@@ -4687,7 +4687,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_frozen</Description>
         </SFL>
       </Private>
@@ -4718,7 +4718,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>i2c_sel</Description>
         </SFL>
       </Private>
@@ -4749,7 +4749,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>start_trim</Description>
         </SFL>
       </Private>
@@ -4780,7 +4780,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Otp_state</Description>
         </SFL>
       </Private>
@@ -4811,7 +4811,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>otp_frozen_ctrl</Description>
         </SFL>
       </Private>
@@ -4842,7 +4842,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Otp_mgrd_en</Description>
         </SFL>
       </Private>
@@ -4873,7 +4873,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vd_qp_obs</Description>
         </SFL>
       </Private>
@@ -4904,7 +4904,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vd_qn_obs</Description>
         </SFL>
       </Private>
@@ -4935,7 +4935,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vcell1_obs</Description>
         </SFL>
       </Private>
@@ -4966,7 +4966,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vcell2_obs</Description>
         </SFL>
       </Private>
@@ -4997,7 +4997,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>V02v_obs</Description>
         </SFL>
       </Private>
@@ -5028,7 +5028,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>V1025_obs</Description>
         </SFL>
       </Private>
@@ -5059,7 +5059,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vbe_obs</Description>
         </SFL>
       </Private>
@@ -5090,7 +5090,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Iref_qp_obs</Description>
         </SFL>
       </Private>
@@ -5121,7 +5121,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Iref_qn_obs</Description>
         </SFL>
       </Private>
@@ -5152,7 +5152,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Cur_ref_obs</Description>
         </SFL>
       </Private>
@@ -5183,7 +5183,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Osc_obs</Description>
         </SFL>
       </Private>
@@ -5214,7 +5214,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Vbg_obs</Description>
         </SFL>
       </Private>
@@ -5245,7 +5245,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>V1v_obs</Description>
         </SFL>
       </Private>
@@ -5276,7 +5276,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ref_osc_obs</Description>
         </SFL>
       </Private>
@@ -5307,7 +5307,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>test_adc_hold</Description>
         </SFL>
       </Private>
@@ -5338,7 +5338,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>test_adc_rst</Description>
         </SFL>
       </Private>
@@ -5369,7 +5369,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Ocp_test</Description>
         </SFL>
       </Private>
@@ -5400,7 +5400,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Otp_test</Description>
         </SFL>
       </Private>
@@ -5431,7 +5431,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Speedup</Description>
         </SFL>
       </Private>
@@ -5462,7 +5462,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat1_offset</Description>
         </SFL>
       </Private>
@@ -5493,7 +5493,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat1_slope</Description>
         </SFL>
       </Private>
@@ -5524,7 +5524,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat2_offset</Description>
         </SFL>
       </Private>
@@ -5555,7 +5555,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>Bat2_slope</Description>
         </SFL>
       </Private>
@@ -5586,7 +5586,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>temp_offset</Description>
         </SFL>
       </Private>
@@ -5617,7 +5617,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>temp_slope</Description>
         </SFL>
       </Private>
@@ -5648,7 +5648,7 @@
           <Value>0</Value>
           <Read>true</Read>
           <Write>true</Write>
-          <Group>Wizards</Group>
+          <Group>SD77060</Group>
           <Description>adc_slope3</Description>
         </SFL>
       </Private>

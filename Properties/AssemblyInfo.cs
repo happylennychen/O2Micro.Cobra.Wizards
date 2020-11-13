@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("O2Micro.Cobra.Wizards")]
+[assembly: AssemblyTitle("Cobra.SD77060")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("O2Micro")]
-[assembly: AssemblyProduct("O2Micro.Cobra.Wizards")]
-[assembly: AssemblyCopyright("Copyright © O2Micro 2020")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Cobra.SD77060")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
